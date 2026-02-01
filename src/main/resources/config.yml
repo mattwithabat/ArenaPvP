@@ -1,0 +1,14 @@
+# Arena Configuration
+elo:
+  starting-rating: 1000
+  k-factor: 32
+
+arena:
+  spawn-world: world
+  spawn-x: 0
+  spawn-y: 64
+  spawn-z: 0
+
+kit:
+  default-inventory: true
+  keep-armor: true

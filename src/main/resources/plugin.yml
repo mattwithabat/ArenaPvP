@@ -1,0 +1,26 @@
+name: ArenaPvP
+version: ${project.version}
+main: com.mattwithabat.arenapvp.ArenaPvP
+api-version: 1.20
+author: mattwithabat
+description: 1v1 arena system with Elo ratings
+
+commands:
+  arena:
+    description: Arena commands
+    usage: /arena <join|leave|stats|kit>
+    aliases: [pvp]
+  kit:
+    description: Manage kits
+    usage: /kit <create|delete|list> [name]
+  duel:
+    description: Duel a player
+    usage: /duel <player>
+
+permissions:
+  arenapvp.join:
+    description: Allow joining arenas
+    default: true
+  arenapvp.admin:
+    description: Admin commands
+    default: op
